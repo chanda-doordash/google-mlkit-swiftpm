@@ -6,6 +6,7 @@ target 'MLKit' do
   use_frameworks!
   pod 'GoogleMLKit/FaceDetection', '~> 3.2.0'
   pod 'GoogleMLKit/BarcodeScanning', '~> 3.2.0'
+  pod 'GoogleMLKit/Translate', '3.2.0'
 end
 
 # Workaround for Xcode 14 beta
